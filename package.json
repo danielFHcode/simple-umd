@@ -1,0 +1,29 @@
+{
+  "name": "simple-umd",
+  "version": "1.0.0",
+  "description": "A warper for the UniversalModuleDefinition.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node src/build/builder.js",
+    "test-build": "node src/build/watch.js",
+    "test": "live-server ./",
+    "test-node": "nodemon tests/node/index.js",
+    "build-docs": "node docs/build/builder.js",
+    "test-docs": "node docs/build/watch.js",
+    "build-all": "npm run build & npm run build-docs"
+  },
+  "keywords": [
+    "umd",
+    "universal module definition",
+    "JavaScript"
+  ],
+  "author": "Daniel F.H.",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "jsdoc-to-markdown": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
