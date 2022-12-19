@@ -1,6 +1,6 @@
 {
   "name": "simple-umd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A warper for the UniversalModuleDefinition.",
   "main": "dist/index.js",
   "scripts": {

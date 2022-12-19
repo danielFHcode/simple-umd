@@ -1,8 +1,7 @@
 # Simple UniversalModuleDefinition
 
-[![License](https://img.shields.io/npm/l/UMD)](https://github.com/probot/template/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/simple-umd)](https://github.com/probot/template/blob/master/LICENSE)
 [![NPM](https://img.shields.io/npm/v/simple-umd)](https://www.npmjs.com/package/simple-umd)
-![Number of downloads](https://img.shields.io/npm/dt/simple-umd)
 [![Fork on github](https://img.shields.io/github/forks/danielFHcode/simple-umd?style=social)](https://github.com/danielFHcode/simple-umd)
 
 `Universal Module Definition` - or `UMD` for short - is a way of defining modules that work in both [CommonJS](https://nodejs.org/api/modules.html#modules-commonjs-modules), [AMD](https://requirejs.org/docs/whyamd.html#purposes), and [browser globals](https://developer.mozilla.org/en-US/docs/Glossary/Global_object).
